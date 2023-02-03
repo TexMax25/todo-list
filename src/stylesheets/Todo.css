@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #006064;
+  --secoundary-color: #00363a;
+
+  --text-color: #f1f2f3;
+
+}
+
+* {
+  background-color: var(--primary-color);
+  margin: 1rem;
+  font-size: 24px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.todo-input {
+  width: 70%;
+  height: 10vh;
+  border: 2px solid var(--text-color);
+  border-radius: 1rem;
+  background-color: var(--secoundary-color);
+  color: var(--text-color);
+}
+
+.button-create {
+  background-color: var(--secoundary-color);
+  border: 0;
+  color: var(--text-color);
+  width: 30%;
+  height: 10vh;
+  border: 2px solid var(--text-color);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.button-create:hover {
+  background-color: #558b2f;
+  color: black;
+  font-weight: bold;
+}
+
+.todo-info {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+}
+
+h2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-display: flex;
+  width: 30rem;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  background-color: #558b2f;
+  border: 2px solid var(--text-color);
+  border-radius: .5rem;
+}
+
+.button {
+  background-color: var(--secoundary-color);
+  border: 0;
+  color: var(--text-color);
+  width: 15%;
+  height: 5vh;
+  border: 2px solid var(--text-color);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+
+.edit-button:hover {
+  background-color: #024c8d;
+}
+
+.delete-button:hover {
+  background-color: #b50303;
+}
+
+.todo-update-form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input-update {
+  width: 20rem;
+  height: 3rem;
+  margin: 0 1rem;
+  background-color: #558b2f;
+  border: 2px solid var(--text-color);
+  border-radius: .5rem;
+  color: var(--text-color);
+}

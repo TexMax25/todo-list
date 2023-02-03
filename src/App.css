@@ -1,0 +1,12 @@
+* {
+  font-family: monospace;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  font-size: 32px;
+  text-shadow: 2px 2px 4px black;
+}
